@@ -1,5 +1,15 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+let a = 8
+function multX(x) {
+  return function(n) {
+     return n * x
+  }
+}
+const multThree = multX(3)
+let b = multThree(a)
+console.log(b)
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
